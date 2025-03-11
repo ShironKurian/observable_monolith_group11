@@ -4,6 +4,7 @@
     "wp-pwa": "^0.1.24"
   },
   "scripts": {
-    "build": "wp-pwa build observable_monolith_group11"
+    "build": "wp-pwa build observable_monolith_group11",
+    "deploy": "gh-pages -d build"
   }
 }
